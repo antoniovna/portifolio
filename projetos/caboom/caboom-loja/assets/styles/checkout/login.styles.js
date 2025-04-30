@@ -1,0 +1,120 @@
+import { makeStyles } from "@mui/styles";
+
+export const styles = makeStyles((theme) => ({
+  login_component_wrapper: {
+    width: "75%",
+    paddingTop: "40px",
+  },
+  login_component_input_wrapper: {
+    display: "flex",
+    alignItems: "center",
+    flexDirection: "column",
+    padding: "10px 20px 10px 20px",
+  },
+  login_component_input: {
+    width: "50%",
+    margin: "5px 0px 5px 0px",
+    "& input": {
+      padding: "13px 10px 13px 10px",
+      height: "20px",
+    },
+    [theme.breakpoints.down("sm")]: {
+      width: "90vw",
+    },
+  },
+  login_register_go_back_wrapper: {
+    width: "60%",
+    display: "flex",
+    alignItems: "center",
+    [theme.breakpoints.down("sm")]: {
+      width: "90vw",
+    },
+  },
+  login_component_or_wrapper: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: "7px",
+    "& div": {
+      width: "4rem",
+      height: "1px",
+      backgroundColor: theme.palette.primary.light_gray,
+    },
+  },
+  login_component_login_button: {
+    width: "15rem",
+    height: "2.3rem",
+    border: `1px solid ${theme.palette.primary.light_gray}`,
+    backgroundColor: theme.palette.primary.background,
+    color: theme.palette.primary.white,
+    borderRadius: "35px",
+    cursor: "pointer",
+  },
+  google_login_component_or_wrapper: {
+    width: "15rem",
+    height: "2.3rem",
+    border: `1px solid ${theme.palette.primary.light_gray}`,
+    backgroundColor: theme.palette.primary.white,
+    color: theme.palette.primary.background,
+    borderRadius: "35px",
+    cursor: "pointer",
+
+    "& :active": {
+      transform: "translateY(4px)",
+    },
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  logged_user_wrapper: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    marginTop: "30px",
+  },
+  logged_user_card: {
+    padding: "0px 15px 0px 15px",
+    border: `1px solid ${theme.palette.primary.light_gray}`,
+    backgroundColor: theme.palette.primary.background,
+    color: theme.palette.primary.white,
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    gap: "15px",
+    borderRadius: "35px",
+    marginBottom: "20px",
+  },
+  logged_user_card_text: {},
+  logged_user_logout_button: {
+    padding: "10px 25px 10px 25px",
+    border: `1px solid ${theme.palette.primary.light_gray}`,
+    backgroundColor: theme.palette.primary.white,
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    gap: "15px",
+    borderRadius: "35px",
+    marginTop: "20px",
+    cursor: "pointer",
+  },
+  login_register_wrapper: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+  },
+  register_button: {
+    padding: "9px 15px 9px 15px",
+    backgroundColor: theme.palette.primary.background,
+    color: theme.palette.primary.white,
+    borderRadius: "25px",
+    fontSize: "1rem",
+    marginTop: "10px",
+    width: "12rem",
+    border: theme.palette.primary.white,
+    cursor: "pointer",
+    "&:hover": {
+      backgroundColor: `${theme.palette.primary.accent} `,
+      transition: "background-color 0.4s ease",
+    },
+  },
+}));

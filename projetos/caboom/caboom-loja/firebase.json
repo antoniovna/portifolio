@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "public": "out",
+    "site": "caboom-loja-2",
+    "cleanUrls": true,
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}
