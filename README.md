@@ -22,7 +22,7 @@ React · Firebase Authentication · Firestore · Material UI
 - Gerenciamento das informações dos produtos e estoque
 - Deploy com Firebase Hosting
 
-**Repositório:** [`./caboom/caboom-admin`](./projetos/caboom/caboom-admin)
+**Repositório:** [`./caboom/caboom-admin`](./caboom/caboom-admin)
 
 ---
 
@@ -40,7 +40,7 @@ Next.js · Firebase Authentication · Firestore  · Material UI
 - Exportação de dados em `.csv`
 - Validação de formulários com React Hook Form
 
-**Repositório:** [`./caboom/caboom-loja`](./projetos/caboom/caboom-loja)
+**Repositório:** [`./caboom/caboom-loja`](./caboom/caboom-loja)
 
 ---
 
@@ -56,7 +56,7 @@ NextJS · Firebase Hosting · Tailwind CSS
 - Interface responsiva e limpa
 - SEO otimizado com NextJS
 
-**Repositório:** [`./solocine`](./projetos/solocine)
+**Repositório:** [`./solocine`](./solocine)
 
 ---
 
@@ -73,7 +73,7 @@ ReactJS · Firebase Authentication · Firebase Hosting · Material UI
 - Funcionalidade de chat entre os funcionarios
 - Dashboard para avaliacao de desempenho dos funcionarios
 
-**Repositório:** [`./safira`](./projetos/safira)
+**Repositório:** [`./safira`](./safira)
 
 ---
 
