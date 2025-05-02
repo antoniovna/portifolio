@@ -1,6 +1,6 @@
 # 💻 Meus Projetos Pessoais de Desenvolvimento Web
 
-Este repositório reúne alguns projetos pessoais que desenvolvi no início da minha carreira para praticar, testar ideias e construir soluções úteis ou interessantes. Todos os projetos estão organizados em subpastas dentro do repositório. Não pude adicionar códigos feitos profissionalmente para as empresas em que trabalhei anteriormente.
+Este repositório reúne alguns projetos pessoais que desenvolvi no início da minha carreira para praticar, testar ideias e construir soluções úteis ou interessantes. Todos os projetos estão organizados em subpastas dentro do repositório. Não pude adicionar códigos fonte desenvolvidos profissionalmente para as empresas em que trabalhei anteriormente.
 
 
 
